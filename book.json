@@ -1,0 +1,30 @@
+{
+  "root": "./src",
+  "title": "帮助文档",
+  "links" : {
+  },
+  "plugins": [
+    "toggle-sidebar-url",
+    "expandable-chapters-small",
+    "tbfed-pagefooter",
+    "anchor-navigation-ex",
+    "hide-element",
+    "chapter-fold",
+    "expandable-chapters-small",
+    "pre-html"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy feke9432 2023",
+      "modify_label": "文件修订于：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+    "pre-html": {
+      "hidePoweredBy": true,
+      "file-link": true
+    }
+	}
+}
